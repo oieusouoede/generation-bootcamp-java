@@ -12,7 +12,7 @@ public class Exercicio6 {
 		do {
 			System.out.print("Digite um numero inteiro: ");
 			num = in.nextInt();
-			if (num % 3 == 0) {
+			if (num % 3 == 0 && num != 0) {
 				soma += num;
 				nMult++;			
 			}
